@@ -76,9 +76,10 @@ Ensure you have the following installed:
 ### _Steps to Run_
 
 1. _Clone the repository_
- sh
+ ```sh
    git clone https://github.com/Ayush0130/Curate.git
    cd Kriti25_ProductDev
+```
 
 2. _Install Server Dependencies_
    ```sh
