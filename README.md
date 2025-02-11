@@ -77,7 +77,7 @@ Ensure you have the following installed:
 
 1. _Clone the repository_
  sh
-   git clone https://github.com/ramdhankumar1425/Kriti25_ProductDev.git
+   git clone https://github.com/Ayush0130/Curate.git
    cd Kriti25_ProductDev
 
 2. _Install Server Dependencies_
