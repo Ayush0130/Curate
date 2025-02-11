@@ -36,7 +36,7 @@ This project is built to reduce the technical barriers faced by non-technical us
 
 ## 🔗 GitHub Repository
 
-🔗 [Project Repository](https://github.com/ramdhankumar1425/Curate25)
+🔗 [Project Repository](https://github.com/Ayush0130/Curate)
 
 ---
 
@@ -76,49 +76,55 @@ Ensure you have the following installed:
 ### _Steps to Run_
 
 1. _Clone the repository_
-   sh
+ sh
    git clone https://github.com/ramdhankumar1425/Kriti25_ProductDev.git
    cd Kriti25_ProductDev
 
 2. _Install Server Dependencies_
-   sh
+   ```sh
    cd server
    npm install
-3. _Install Client Dependencies_
-   sh
+   ```
+4. _Install Client Dependencies_
+   ```sh
    cd client
    npm install
+   ```
 
-4. _Set up environment variables_
+5. _Set up environment variables_
 
     - Create a .env file inside both the client and server directories to store sensitive API credentials.
     - Add the following variables:
 
     _For Frontend (client/.env):_
     env
+   ```sh
     VITE_SERVER_URI=http://localhost:5000
     VITE_AUTH0_DOMAIN=<your_auth0_domain>
     VITE_AUTH0_CLIENT_ID=<your_auth0_client_id>
     VITE_AUTH0_AUDIENCE=<your_auth0_audience>
+   ```
 
     _For Backend (server/.env):_
     env
+   ```sh
     CLIENT_URI=http://localhost:5173
     AUTH0_AUDIENCE=<your_auth0_audience>
     AUTH0_ISSUER=<your_auth0_issuer>
     CLAUDE_API_KEY=<your_claude_api_key>
     MONGO_URI=<your_mongodb_connection_string>
+   ```
 
-5. _Run the Server_
+7. _Run the Server_
    bash
    cd server
    npm start
-6. _Run the Client_
+8. _Run the Client_
    bash
    cd client
    npm run dev
 
-7. _Open in Browser_
+9. _Open in Browser_
    bash
    http://localhost:5173
 
